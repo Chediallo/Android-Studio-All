@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter matricule-->
+    <TextView
+        android:id="@+id/editMatricule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:text="COMPILATION"/>
+
+
+    <Button
+        android:id="@+id/btnAppel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Appel"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="SMS"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btnLocalisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Localisation"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Camera"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCalculatrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Calculatrice"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btnAudioLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Lire un fichier audio"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btnAudioOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Lire un fichier audio en ligne"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Lire une vidéo en ligne"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Enregistrer un audio"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="SQLITE"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnFirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="FIREBASE"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
